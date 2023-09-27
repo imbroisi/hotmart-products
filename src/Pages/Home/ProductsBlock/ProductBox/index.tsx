@@ -14,9 +14,7 @@ const ProductBox = ({ name, about, image, info, path, size }: ProductListTypes) 
   const [width, height] = size.split('x');
   return (
     <Container onClick={() => goto(path)}>
-      {/* <ImageContainer width={width} height={height}> */}
-        <Image src={image} alt="" width={width} height={height} />
-      {/* </ImageContainer> */}
+      <Image src={image} alt="" width={width} height={height} />
       <Name>
         {name}
       </Name>

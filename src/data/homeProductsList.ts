@@ -19,7 +19,7 @@ const homeProductsList = {
       "about": "Publique conteúdos frequentpes para assinantes",
       "image": ComunidadeImg,
       "info": "TODO",
-      path: 'products/online-events',
+      path: 'products/comunity',
       size: "280x146"
     },
     {
@@ -51,7 +51,7 @@ const homeProductsList = {
       "about": "Conferências, palestras, workshops",
       "image": EventosOnlineImg,
       "info": "TODO",
-      path: 'products/online-events',
+      path: 'products/online-event',
       size: "178x130"
     },
   ],
