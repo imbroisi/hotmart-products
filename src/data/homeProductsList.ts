@@ -32,7 +32,7 @@ const homeProductsList = {
     },
     {
       "name": "Assinatura",
-      "about": "Para curso online e área de membros 123 1231 23",
+      "about": "Para curso online e área de membros",
       "image": AssinaturaImg,
       "info": "TODO",
       path: 'products/signature',
@@ -58,37 +58,84 @@ const homeProductsList = {
   others: [
     {
       name: 'Imagem / Foto',
-      Image: ImagePhotoImg
+      path: '/image-photo',
+      Image: ImagePhotoImg,
+      progressItems: [
+        ['Formato', 'Imagem / Foto'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Código Fonte',
-      Image: CodigoFonteImg
+      path: '/source-code',
+      Image: CodigoFonteImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Áudio / Música',
-      Image: AudioMusicaImg
+      path: '/audio-music',
+      Image: AudioMusicaImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Aplicativo para celular',
-      Image: AppCelularImg
+      path: '/phone-app',
+      Image: AppCelularImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Arquivos para baixar',
-      Image: ArqBaixarImg
+      path: '/download-files',
+      Image: ArqBaixarImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Filmes / Screencast',
-      Image: FilmesImg
+      path: '/movies-screencast',
+      Image: FilmesImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Podcast / Audiobook',
-      Image: PodcastImg
+      path: '/podcast-audiobook',
+      Image: PodcastImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
     {
       name: 'Programa para baixar',
-      Image: ProgBaixarImg
+      path: '/download-programs',
+      Image: ProgBaixarImg,
+      progressItems: [
+        ['Formato', 'Curso Online'],
+        ['Informações', 'Qual é o seu produto'],
+        ['Precificação', 'Valor e estratégia de venda'],
+      ],
     },
-
   ]
 };
 

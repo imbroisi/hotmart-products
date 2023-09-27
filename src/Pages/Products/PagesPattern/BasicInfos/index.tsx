@@ -42,7 +42,7 @@ const BasicInfos = () => (
     <Input label="Nome do Produto" placeHolder="Coloque um nome que chame a atenção de seus compradores" />
     <TextField
       label="Descrição"
-      placeHolder="Fale do que se trata seu produto e o que ele oferece, de foram clara e breve."
+      placeHolder="Fale do que se trata seu produto e o que ele oferece, de forma clara e breve."
       rows="5"
     />
     <DivFlex>
@@ -67,9 +67,7 @@ const BasicInfos = () => (
         </SeeAllFormats>
       </Box>
     </Tooltip>
-    <FileInfo>
-      A imagem escolhida deve estar no formato JPG ou PNG e ter no máximo 5 MB de tamanho. Dimensões ideais: 600x600 pixels.
-    </FileInfo>
+    <FileInfo dangerouslySetInnerHTML={{ __html: 'A imagem escolhida deve estar no formato JPG ou PNG e ter no máximo 5 MB de tamanho. Dimensões&nbsp;ideais:&nbsp;600x600&nbsp;pixels.' }} />
     <br />
     <Label>
       Categoria do Produto

@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { ReactComponent as CheckOriginal } from 'assets/check.svg'; 
 
 export const Container = styled.div`
-  width: 286px;
+  max-width: 286px;
+  min-width: 286px;
   border-right: 1px solid #e2e6ea;
   height: 100vh;
   padding: 24px;

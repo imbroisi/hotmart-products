@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 36px;
-  
 `;
 
 export const ProductsList = styled.div`
