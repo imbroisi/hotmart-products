@@ -9,7 +9,7 @@ const OtherProducts = () => (
       {
         productsList.others.map(({ name, Image, path }) => {
           return (
-            <Content key={name} onClick={() => goto(`products${path}`)}>
+            <Content key={name} onClick={() => goto(path)}>
               <ImgContainer>
                 <Image />
               </ImgContainer>

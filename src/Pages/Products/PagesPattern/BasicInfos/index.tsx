@@ -39,16 +39,16 @@ const BasicInfos = () => (
     </Title>
     Os dados abaixo são muito importantes para seu produto. Preencha-os com atenção.
 
-    <Input label="Nome do Produto" placeHolder="Coloque um nome que chame a atenção de seus compradores" />
+    <Input label="Nome do Produto" placeholder="Coloque um nome que chame a atenção de seus compradores" />
     <TextField
       label="Descrição"
-      placeHolder="Fale do que se trata seu produto e o que ele oferece, de forma clara e breve."
+      placeholder="Fale do que se trata seu produto e o que ele oferece, de forma clara e breve."
       rows="5"
     />
     <DivFlex>
-      <Input label="Idioma do Produto" placeHolder="Em que língua será seu produto" />
+      <Input label="Idioma do Produto" placeholder="Em que língua será seu produto" />
       <Spacer />
-      <Input label="Principal país de vendas" placeHolder="Em que país você deseja vender" />
+      <Input label="Principal país de vendas" placeholder="Em que país você deseja vender" />
     </DivFlex>
     <br />
     <Label>
@@ -78,7 +78,7 @@ const BasicInfos = () => (
     <Tooltip title="Ainda não implementado" placement="right" arrow color="orange">
       <Categories>
         {categories.map(item => (
-          <CategorieItem>
+          <CategorieItem key={item}>
             {item}
           </CategorieItem>
         ))
