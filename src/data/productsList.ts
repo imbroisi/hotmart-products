@@ -12,7 +12,7 @@ import { ReactComponent as FilmesImg } from 'assets/filmes.svg';
 import { ReactComponent as PodcastImg } from 'assets/podcast.svg';
 import { ReactComponent as ProgBaixarImg } from 'assets/progBaixar.svg';
 
-const homeProductsList = {
+const productsList = {
   main: [
     {
       "name": "Comunidade",
@@ -172,4 +172,4 @@ const homeProductsList = {
   ]
 };
 
-export default homeProductsList;
+export default productsList;

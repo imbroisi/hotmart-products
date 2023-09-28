@@ -1,4 +1,4 @@
-import productsList from 'data/homeProductsList';
+import productsList from 'data/productsList';
 import { Container, Content, ImgContainer, ProductsList } from './styles';
 import { goto } from 'messages';
 

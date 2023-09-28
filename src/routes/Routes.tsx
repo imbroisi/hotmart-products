@@ -1,11 +1,11 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home'
-import homeProductsList from 'data/homeProductsList';
+import { Routes as ReactRoutes, Route } from 'react-router-dom';
+import Home from '../Pages/Home'
+import homeProductsList from 'data/productsList';
 import OtherProducts from 'Pages/Products/OtherProducts';
 import MainProducts from 'Pages/Products/MainProducts';
 
-const App = () => (
-  <Routes>
+const Routes = () => (
+  <ReactRoutes>
     <Route path='/' element={<Home />} />
     {
       homeProductsList.main.map((data) => (
@@ -17,8 +17,8 @@ const App = () => (
         <Route key={data.path} path={data.path} element={<OtherProducts data={data} />} />
       ))
     }
-  </Routes>
+  </ReactRoutes>
 )
 
 
-export default App;
+export default Routes;

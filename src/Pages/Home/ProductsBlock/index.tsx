@@ -1,4 +1,4 @@
-import productsList from 'data/homeProductsList';
+import productsList from 'data/productsList';
 import ProductBox, { ProductListTypes } from './ProductBox';
 import { Container } from './styles';
 
