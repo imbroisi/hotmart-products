@@ -10,6 +10,10 @@ export const Container = styled.div`
   box-sizing: border-box;
   font-size: 15px;
   letter-spacing: normal;
+
+  max-width: 860px;
+  min-width: 512px;
+
 `;
 
 export const Title = styled.div`

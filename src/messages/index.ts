@@ -9,8 +9,10 @@ const sendMessage = (type: string, data: string) => {
 } 
 
 export const goto = (addr: string) => {
-  console.log('PRODUCTS ----->>>> addr', addr)
+  console.log('PRODUCTS ----->>>> addr', addr, NODE_ENV, window.top === window.self)
   if(NODE_ENV === 'development' && window.top === window.self) {
+    console.log('!!!!! PRODUCTS ----->>>> addr', addr)
+
     // @ts-ignore
     window.location.href = addr;
   } else {
