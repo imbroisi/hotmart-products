@@ -5,7 +5,6 @@ import { Container, Content } from './styles';
 
 
 const Home = () => {
-  console.log('+++++++++++========> NODE_ENV', process.env.NODE_ENV)
   return (
     <Container>
       <Content>
