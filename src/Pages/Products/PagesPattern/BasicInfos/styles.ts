@@ -13,7 +13,6 @@ export const Container = styled.div`
 
   max-width: 860px;
   min-width: 512px;
-
 `;
 
 export const Title = styled.div`
@@ -30,7 +29,6 @@ export const DivFlex = styled.div`
 export const Spacer = styled.div`
   width: 30px !important;
 `;
-
 
 export const Box = styled.div`
   display: flex;
@@ -52,7 +50,6 @@ export const SeeAllFormats = styled.button`
   cursor: pointer;
   outline: 0;
   text-align: center;
-  /* transition: background-color 500ms cubic-bezier(0.2,1,0.2,1),border-color 500ms cubic-bezier(0.2,1,0.2,1),box-shadow 500ms cubic-bezier(0.2,1,0.2,1),color 500ms cubic-bezier(0.2,1,0.2,1); */
   appearance: button;
   height: 42px;
   font-size: 1rem;
