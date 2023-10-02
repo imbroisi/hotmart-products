@@ -17,7 +17,7 @@ const categories = [
   'Direito',
   'App & Software',
   'Literatura',
-  'Casa e COnstrução',
+  'Casa e Construção',
   'Desenvolvimento Pessoal',
   'Moda e Beleza',
   'Animais e Plantas',
@@ -27,7 +27,7 @@ const categories = [
   'Internet',
   'Ecologia e Meio Ambiente',
   'Música e Artes',
-  'Tecnoligia da Informação',
+  'Tecnologia da Informação',
   'Empreendedorismo Digital',
   'Outros',
 ];
