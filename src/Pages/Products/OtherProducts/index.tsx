@@ -11,8 +11,7 @@ import PagesPattern from '../PagesPattern';
 // ];
 
 const OtherProducts = ({ data }: any) => {
-
-  console.log('>>>>>>>>>>> OtherProducts data', data)
+  // console.log('>>>>>>>>>>> OtherProducts data', data)
   
   return (
   <PagesPattern
