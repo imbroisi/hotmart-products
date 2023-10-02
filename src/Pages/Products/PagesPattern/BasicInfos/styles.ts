@@ -5,14 +5,14 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 32px 280px 32px 32px;
+  padding: 32px 280px 32px 32px;
   color: #707780;
   box-sizing: border-box;
   font-size: 15px;
   letter-spacing: normal;
-
   max-width: 860px;
   min-width: 512px;
+  border-left: 1px solid #e2e6ea;
 `;
 
 export const Title = styled.div`
