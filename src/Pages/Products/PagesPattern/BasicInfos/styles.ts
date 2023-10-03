@@ -10,7 +10,7 @@ export const Container = styled.div`
   box-sizing: border-box;
   font-size: 15px;
   letter-spacing: normal;
-  max-width: 860px;
+  max-width: 1100px;
   min-width: 512px;
   border-left: 1px solid #e2e6ea;
 `;
