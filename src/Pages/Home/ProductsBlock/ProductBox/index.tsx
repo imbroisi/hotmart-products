@@ -7,13 +7,13 @@ export interface ProductListTypes {
   image: string
   info: string
   size: string
-  path: string
+  paths: string[]
 }
 
-const ProductBox = ({ name, about, image, info, path, size }: ProductListTypes) => {
+const ProductBox = ({ name, about, image, info, paths, size }: ProductListTypes) => {
   const [width, height] = size.split('x');
   return (
-    <Container onClick={() => goto(path)}>
+    <Container onClick={() => goto(paths[0])}>
       <Image src={image} alt="" width={width} height={height} />
       <Name>
         {name}

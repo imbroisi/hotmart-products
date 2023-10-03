@@ -7,9 +7,9 @@ const OtherProducts = () => (
     Outro formato? Escolha abaixo:
     <ProductsList>
       {
-        productsList.others.map(({ name, Image, path }) => {
+        productsList.others.map(({ name, Image, paths }) => {
           return (
-            <Content key={name} onClick={() => goto(path)}>
+            <Content key={name} onClick={() => goto(paths[0])}>
               <ImgContainer>
                 <Image />
               </ImgContainer>

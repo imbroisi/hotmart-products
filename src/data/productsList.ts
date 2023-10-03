@@ -19,7 +19,10 @@ const productsList = {
       "about": "Publique conteúdos frequentpes para assinantes",
       "image": ComunidadeImg,
       "info": "TODO",
-      path: 'comunity',
+      paths: [
+        'comunidade',
+        'comunity',
+      ],
       size: "280x146",
       progressItems: [
         ['Formato', 'Comunnidade'],
@@ -35,7 +38,10 @@ const productsList = {
       "about": "Aulas em um ambiente seguro",
       "image": CursoOnlineImg,
       "info": "TODO",
-      path: 'course-online',
+      paths: [
+        'curso-online',
+        'course-online',
+      ],
       size: "142x130",
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -52,7 +58,10 @@ const productsList = {
       "about": "Para curso online e área de membros",
       "image": AssinaturaImg,
       "info": "TODO",
-      path: 'signature',
+      paths: [
+        'assinatura',
+        'signature',
+      ],
       size: "180x130",
       progressItems: [
         ['Formato', 'Assinatura'],
@@ -65,7 +74,9 @@ const productsList = {
       "about": "Arquivos em .pdf ou ePub",
       "image": EBookImg,
       "info": "TODO",
-      path: 'ebook',
+      paths: [
+        'ebook',
+      ],
       size: "155x130",
       progressItems: [
         ['Formato', 'eBook'],
@@ -78,7 +89,10 @@ const productsList = {
       "about": "Conferências, palestras, workshops",
       "image": EventosOnlineImg,
       "info": "TODO",
-      path: 'online-event',
+      paths: [
+        'eventos-online',
+        'online-events',
+      ],
       size: "178x130",
       progressItems: [
         ['Formato', 'Assinatura'],
@@ -91,7 +105,10 @@ const productsList = {
   others: [
     {
       name: 'Imagem / Foto',
-      path: 'image-photo',
+      paths: [
+        'imagem-foto',
+        'image-photo',
+      ],
       Image: ImagePhotoImg,
       progressItems: [
         ['Formato', 'Imagem / Foto'],
@@ -101,7 +118,10 @@ const productsList = {
     },
     {
       name: 'Código Fonte',
-      path: 'source-code',
+      paths: [
+        'codigo-fonte',
+        'source-code',
+      ],
       Image: CodigoFonteImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -111,7 +131,10 @@ const productsList = {
     },
     {
       name: 'Áudio / Música',
-      path: 'audio-music',
+      paths: [
+        'audio-musica',
+        'audio-music',
+      ],
       Image: AudioMusicaImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -121,7 +144,11 @@ const productsList = {
     },
     {
       name: 'Aplicativo para celular',
-      path: 'phone-app',
+      paths: [
+        'aplicativo-celular',
+        'phone-app',
+        'phone-application',
+      ],
       Image: AppCelularImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -131,7 +158,10 @@ const productsList = {
     },
     {
       name: 'Arquivos para baixar',
-      path: 'download-files',
+      paths: [
+        'arquivos-para-baixar',
+        'download-files',
+      ],
       Image: ArqBaixarImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -141,7 +171,10 @@ const productsList = {
     },
     {
       name: 'Filmes / Screencast',
-      path: 'movies-screencast',
+      paths: [
+        'filmes-screencast',
+        'movies-screencast',
+      ],
       Image: FilmesImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -151,7 +184,9 @@ const productsList = {
     },
     {
       name: 'Podcast / Audiobook',
-      path: 'podcast-audiobook',
+      paths: [
+        'podcast-audiobook',
+      ],
       Image: PodcastImg,
       progressItems: [
         ['Formato', 'Curso Online'],
@@ -161,7 +196,10 @@ const productsList = {
     },
     {
       name: 'Programa para baixar',
-      path: 'download-programs',
+      paths: [
+        'programas-para-baixar',
+        'download-programs',
+      ],
       Image: ProgBaixarImg,
       progressItems: [
         ['Formato', 'Curso Online'],

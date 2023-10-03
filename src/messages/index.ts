@@ -16,6 +16,6 @@ export const goto = (addr: string) => {
     // @ts-ignore
     window.location.href = addr;
   } else {
-    sendMessage('goto', `products/${addr}`);
+    sendMessage('goto', `produtos/${addr}`);
   }
 }

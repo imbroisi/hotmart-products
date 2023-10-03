@@ -9,13 +9,17 @@ const Routes = () => (
     <Route path='/' element={<Home />} />
     {
       homeProductsList.main.map((data) => (
-        <Route key={data.path} path={data.path} element={<MainProducts data={data} />} />
-      ))
+        data.paths.map((path) => (
+          <Route key={path} path={path} element={<MainProducts data={data} />} />        
+        )
+      )))
     }
     {
       homeProductsList.others.map((data) => (
-        <Route key={data.path} path={data.path} element={<OtherProducts data={data} />} />
-      ))
+        data.paths.map((path) => (
+          <Route key={path} path={path} element={<OtherProducts data={data} />} />
+        )
+      )))
     }
   </ReactRoutes>
 )
